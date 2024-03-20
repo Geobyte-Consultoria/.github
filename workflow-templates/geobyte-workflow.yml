@@ -1,0 +1,17 @@
+name: Geobyte Template
+
+on:
+  push:
+    branches: 
+      - testing # temporario
+      - develop
+  workflow_dispatch: 
+
+jobs:
+  build:
+    uses: Geobyte-Consultoria/job-templates/.github/workflows/build.yml@main
+    secrets: inherit
+    permissions:
+      contents: read
+      packages: write
+      id-token: write

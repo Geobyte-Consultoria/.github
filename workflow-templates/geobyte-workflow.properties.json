@@ -1,0 +1,10 @@
+{
+    "name": "Geobyte Template",
+    "description": "Um template para tests, build e deploy dos projetos da Geobyte.",
+    "iconName": "octicon tasklist",
+    "categories": [
+        "Python",
+        "Continuous integration",
+        "Continuous deployment"
+    ]
+}
